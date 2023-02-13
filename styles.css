@@ -77,7 +77,10 @@ ul li button:focus {
 .rating-card {
   max-width: 340px;
   margin: 0 auto;
-  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
+  background-image: linear-gradient(
+    hsl(213, 19%, 18%, 0.7),
+    hsl(213, 19%, 18%, 0.3)
+  );
   padding: 1.5rem;
   border-radius: 0.625rem;
 }
@@ -91,8 +94,11 @@ ul li button:focus {
 .thank-you-card {
   max-width: 340px;
   margin: 0 auto;
-  background-image: linear-gradient(hsl(213, 19%, 18%), hsl(216, 12%, 8%));
-  padding: 1.5rem;
+  background-image: linear-gradient(
+    hsl(213, 19%, 18%, 0.7),
+    hsl(213, 19%, 18%, 0.3)
+  );
+  padding: 2rem;
   border-radius: 0.625rem;
   display: flex;
   flex-direction: column;
@@ -103,7 +109,7 @@ ul li button:focus {
 
 .thank-you-card img {
   display: block;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem;
 }
 
 .thank-you-card p.selection {
@@ -125,6 +131,7 @@ ul li button:focus {
   left: 5px;
   font-size: 15px;
   text-align: center;
+  color: hsl(0, 0%, 100%);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
